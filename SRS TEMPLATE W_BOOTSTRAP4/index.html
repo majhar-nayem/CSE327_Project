@@ -22,7 +22,7 @@
 
 <body>
     <div class="container-fluid bg bg-dark fixed-bottom rounded">
-        <a href="#menu-toggle" class="btn btn-dark text-light" id="menu-toggle">Toggle Index</a><p class="text-warning float-right">Press the Button to see the index.</p> 
+        <a href="#menu-toggle" class="btn btn-dark text-light" id="menu-toggle">Menu</a><p class="text-warning float-right">Press the Button to see the index.</p>
     </div>
 
     <div id="wrapper" >
@@ -149,7 +149,7 @@
                                                 <p class="text-secondary"><small>4.1 Login</small></p>
                                             </a></li>
                                         <li class="list-group-item"><a href="#">
-                                                <p class="text-secondary"><small>4.2 Logout</small></p>
+                                                <p class="text-secondary"><small>4.2 Register</small></p>
                                             </a></li>
                                         <li class="list-group-item"><a href="#">
                                             <p class="text-secondary"><small>4.3 Order Check</small></p>
@@ -198,6 +198,9 @@
                                         </a></li>
                                         <li class="list-group-item"><a href="#">
                                             <p class="text-secondary"><small>4.18 Call Waiter</small></p>
+                                        </a></li>
+                                        <li class="list-group-item"><a href="#">
+                                            <p class="text-secondary"><small>4.19 Logout</small></p>
                                         </a></li>
                                     </ul>
                                 </div>
@@ -249,17 +252,15 @@
         <div id="page-content-wrapper" class="rounded" >
 
             <main role="main" class="container-fluid rounded">
-                <h1>Softower Requirements <br>Specification</h1><br><br>
-                <br><br><br><br><br><br><br>
-                <br><br><br><br><br><br><br>
-                <br><br><br><br><br><br><br>
-
-
+                <h1 class="text-center">Software Requirements Specification (SRS)</h1><br>
+                <h4 class="text-center">for</h4>
+                <br><h2 class="text-center">Restaurant Digital Ordering System</h2>
+                <br><br><br><br>
                 
                 <h2>Smart Menu</h3>
-                <h5>Version 1.0001 ALPHA <br> <br> Prepared by <br> <br> 
+                <h5>Version 1.0001 ALPHA <br> <br> Prepared by  <br>
                     Majharul Islam &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1621381042<br>
-                    MD Shaheduzzaman Shahed&nbsp;&nbsp;&nbsp;            1610985042<br>
+                    MD Shaheduzzaman Shahed&nbsp;&nbsp;            1610985042<br>
                     Sourov Sarker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1610427042<br>
                     Sharieaz Kavier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1513192642<br><br>  date created&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08/10/2018</h5><br><br><br><br>
 
@@ -379,13 +380,15 @@
                             This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.
                         </p> 
 
-                        <h4>4.1 System Feature 1</h4>
+                        <h4>4.1 &nbsp; Login</h4>
                         <p>
+                            Admin user will login
+                        </p>
 
-                        </p> 
-                        <P>
-                            4.1.1&nbsp;&nbsp;&nbsp;Login<br>
                         <p>
+                        <b>Actor:</b> Admin <br>
+                         <b>Priority:</b> Top
+                        </p>
                             <table class="table-bordered" style="align-content: center">
                             <tr >
                                 <th>Actor</th>
@@ -396,17 +399,35 @@
 
                             </td>
                         <td>
-                            <br>2.System return into the Login form </br>
+                                2.System return into the Login form </br>
                                 4. System authenticate and redirect to Home Page
                         </td>
                     </table>
                         </P>                       
                         <P>
-                            4.1.2&nbsp;&nbsp;&nbsp;Stimulus/Response Sequences<br>
-                            Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9
+                            <h4>4.2&nbsp;&nbsp;Register</h4></h4><br>
+                        <p>
+                        <table class="table-bordered" style="align-content: center">
+                            <tr >
+                                <th>Actor</th>
+                                <th>System</th>
+                            </tr>
+                            <td> 1.Actor click on the App Icon </br>
+                                3.Actor register button bellow the form</br>
+                                5.Actor Fill up the form and click submit
+
+                            </td>
+                            <td>
+                                2.System return into the Login form </br>
+                                4. System redirect to register page</br>
+                                6.System show message 'Registered Successfully!'
+
+                            </td>
+                        </table>
+                        </P>
                         </P>                       
                         <P>
-                            4.1.3&nbsp;&nbsp;&nbsp;Functional Requirements<br>
+                            4.3&nbsp;&nbsp;&nbsp;Functional Requirements<br>
                             Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9
                         </P>                       
 
@@ -432,6 +453,7 @@
 
             </main>
         </div>
+        <br><br><br>
         <!-- /#page-content-wrapper -->
 
     </div>
