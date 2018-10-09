@@ -210,7 +210,7 @@
                                         <li class="list-group-item"><a href="#acceptedorder">
                                                 <p class="text-secondary"><small>4.20 Accepted Orders</small></p>
                                             </a></li>
-                    
+
                                         <li class="list-group-item"><a href="#updatefoodstat">
                                                 <p class="text-secondary"><small>4.21 Update Food Status</small></p>
                                             </a></li>
@@ -435,314 +435,529 @@
 
                     <div class="container-fluid text-light bg bg-dark">
                         <h1>4.System Features</h1>
-
                     </div>
                     <article class="media content-section" id="">
                         <div class="media-body">
-                            <h4>4.1 &nbsp; Login</h4>
+
+
+                            <div class="media-body" id="adminlogin">
+                                <h5>4.1 Login</h5>
+                                <p>
+                                    Admin user will login
+                                </p>
+
+                                <p>
+
+                                    <b>Actor:</b> Admin <br>
+                                    <b>Priority:</b> Top
+                                </p>
+                                <table class="table-bordered" style="align-content: center">
+                                    <table class="table table-bordered table-striped" style="align-content: center">
+                                        <tr>
+                                            <th>Actor</th>
+                                            <th>System</th>
+                                        </tr>
+                                        <td> 1.Actor click on the App Icon <br>
+                                            3.Actor enter username and password
+
+                                        </td>
+                                        <td>
+                                            2.System return into the Login form <br>
+                                            4. System authenticate and redirect to Home Page
+                                        </td>
+                                    </table>
+                            </div>
+
+                            <div class="media-body" id="viewcatagory">
+                                    <h4>4.2 Order Check</h4>
+                                    <p>
+                                        Admin user will check customer order.
+                                    </p>
+            
+                                            <p>
+                                                <b>Actor:</b> Admin <br>
+                                                <b>Priority:</b> Top
+                                            </p>
+                                   
+                                    <table class=" table table-bordered table-striped" style="align-content: center">
+                                        <tr >
+                                            <th>Actor</th>
+                                            <th>System</th>
+                                        </tr>
+                                        <td> 1.Actor click on the App Icon </br>
+                                            3.Actor will click on the order button </br>
+                                            5.Actor can make the order cancel or completed from the dropdown menu beside the order each order list
+            
+                                        </td>
+                                        <td>
+                                            2.System redirect to admin home page </br>
+                                            4. System redirect to the order list page</br>
+                                            6.System show message 'Registered Successfully cancel or completed!' according to actor actions
+            
+                                        </td>
+                                    </table>
+                            </div>
+
+                            <div class="media-body" id="chiefattendence">
+                                    <h4>4.3 Chief Attendance</h4><p>
+                            
+                                            Admin user can check chief attendance.
+                                        </p>
+            
+                                        <p>
+                                            <b>Actor:</b> Admin <br>
+                                            <b>Priority:</b> Top
+                                        </p>
+                                       
+                                            <table class=" table table-bordered table-striped" style="align-content: center">
+                                                <tr >
+                                                    <th>Actor</th>
+                                                    <th>System</th>
+                                                </tr>
+                                                <td> 1.Actor click on the 'chief attendance' button </br>
+                                                    3.Actor will click on the order button </br>
+                                                    5.Actor can check it
+            
+                                                </td>
+                                                <td>
+                                                    2.System redirect to the chief attendance page </br>
+                                                    4. System redirect to the order list page</br>
+            
+                                                </td>
+                                            </table>
+                                </div>
+                                <div class="media-body" id="viewcatagory">
+                                        <h4>4.4 Waiter Attendance</h4></h4><br>
+                                        <p>
+                                            Admin user can check waiter attendance.
+                                        </p>
+            
+                                        <p>
+                                            <b>Actor:</b> Admin <br>
+                                            <b>Priority:</b> Medium
+                                        </p>
+                                        <div>
+                                            <table class=" table table-bordered table-striped" style="align-content: center">
+                                                <tr >
+                                                    <th>Actor</th>
+                                                    <th>System</th>
+                                                </tr>
+                                                <td> 1.Actor click on the 'Waiter Attendance' from admin home page </br>
+                                                    3.Actor can check the attendance of waiters as 'Available' and 'Not Available'
+            
+                                                </td>
+                                                <td>
+                                                    2.System redirect to the waiter attendance page </br>
+            
+            
+            
+                                                </td>
+                                            </table>
+                                    </div>
+                                    <div class="media-body" id="viewcatagory">
+                                            <h4>4.5 Chief Salary Status </h4></h4><br>
                             <p>
-                                Admin user will login
+                                Admin user can check Chief Salary Status.
+                            </p>
+
+                            <p>
+                                <b>Actor:</b> Admin <br>
+                                <b>Priority:</b> less
+                            </p>
+                            <div>
+                                <table class=" table table-bordered table-striped" style="align-content: center">
+                                    <tr >
+                                        <th>Actor</th>
+                                        <th>System</th>
+                                    </tr>
+                                    <td> 1.Actor click on the 'Chief Salary Status' from admin home page </br>
+                                        3.Actor can check the salary of waiters as 'Paid' and 'Not Paid'
+
+                                    </td>
+                                    <td>
+                                        2.System redirect to the 'Chief Salary Status' page <br>
+
+
+
+                                    </td>
+                                </table>
+                                </div>
+                                <div class="media-body" id="viewcatagory">
+                                        <h4>4.6 Waiter Salary Status </h4></h4><br>
+                            <p>
+                                Admin user can check waiter Salary Status.
+                            </p>
+
+                            <p>
+                                <b>Actor:</b> Admin <br>
+                                <b>Priority:</b> less
+                            </p>
+                            <div>
+                                <table class=" table table-bordered table-striped" style="align-content: center">
+                                    <tr >
+                                        <th>Actor</th>
+                                        <th>System</th>
+                                    </tr>
+                                    <td> 1.Actor click on the 'Waiter Salary Status' from admin home page </br>
+                                        3.Actor can check the waiter salary as 'paid' and 'Not paid'
+
+                                    </td>
+                                    <td>
+                                        2.System redirect to the 'Chief Salary Status' page </br>
+
+
+
+                                    </td>
+                                </table>
+                            </div>
+                            <div class="media-body" id="viewcatagory">
+                                    <h4>4.7 Validate Order </h4></h4><br>
+                            <p>
+                                Admin user can Validate Order. That means Cancel, Pending, Delivered, Completed a order.
                             </p>
 
                             <p>
                                 <b>Actor:</b> Admin <br>
                                 <b>Priority:</b> Top
                             </p>
-                            <table class="table-bordered" style="align-content: center">
-
-                                <table class="table table-bordered table-striped" style="align-content: center">
-
-                                    <tr>
+                            <div>
+                                <table class=" table table-bordered table-striped" style="align-content: center">
+                                    <tr >
                                         <th>Actor</th>
                                         <th>System</th>
                                     </tr>
-                                    <td> 1.Actor click on the App Icon <br>
-                                        3.Actor enter username and password
+                                    <td> 1.Actor click on the 'Order' button from admin home page </br>
+                                        3.Actor can make the cancel, pending and Completed from the dropdown Menu beside the each customer order list.
 
                                     </td>
                                     <td>
-                                        2.System return into the Login form <br>
-                                        4. System authenticate and redirect to Home Page
+                                        2.System return to the Order list page</br>
+                                        4. System show Successful message according to the actor's action on the same page
+
                                     </td>
                                 </table>
+                                <p>
+                                    <b> 4.7.1</b> When actor select 'cancel' from the dropdown menu and click on the update button
+                                    the system will show an alert "Are you sure to delete the order?" if actor click on yes, system will show message
+                                    "The Order is Canceled Successfully!" and if click on the 'no' button, system retrun to the order page.
+                                    <br>
+                                    <b>4.7.2</b> When actor select pending' form the dropdown menu and click on update, system show message "Status is pending Now!"
+                                    <br>
+                                    <b>4.7.3</b> When actor select 'completed' from dropdown menu and click on update, system show message "Order Completed Succressfully!"
 
+                                </p>
+                        </div>
 
-                                <h4>4.2&nbsp;&nbsp;Register</h4>
-                                </h4><br>
+                        <div class="media-body" id="viewcatagory">
+                                <h4>4.8 Update Food DB </h4></h4><br>
+                            <p>
+                                Admin user can change add a food item, delete a food item and make status 'available' and 'Not available'.
+                            </p>
 
-                                <table class="table-bordered" style="align-content: center">
-                                    <tr>
+                            <p>
+                                <b>Actor:</b> Admin <br>
+                                <b>Priority:</b> Top
+                            </p>
+                            <div>
+                                <table class=" table table-bordered table-striped" style="align-content: center">
+                                    <tr >
                                         <th>Actor</th>
                                         <th>System</th>
                                     </tr>
-                                    <td> 1.Actor click on the App Icon <br>
-                                        3.Actor register button bellow the form<br>
-                                        5.Actor Fill up the form and click submit
+                                    <td> 1.Actor click on the update food DB from admin home page </br>
+                                        3.Actor can find add, delete, edit button.
 
                                     </td>
                                     <td>
-                                        2.System return into the Login form <br>
-                                        4. System redirect to register page<br>
-                                        6.System show message 'Registered Successfully!'
+                                        2.System redirect to the Food DB page </br>
+
+
 
                                     </td>
                                 </table>
-                                <br>
-                                <div class="media-body" id="viewcatagory">
-                                    <h5>4.11 View Category</h5>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Actor(User)</th>
-                                                <th scope="col">System</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1. After login.</th>
-                                                <td>2. User will be in Food category activity.</td>
 
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3. User will press the category button.</th>
-                                                <td colspan="2">4. Then User will see the list of food inside the
-                                                    category.</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">5. User will saw a list of food based on category.</th>
-                                                <td colspan="2">6. This is a Two way action button one will proced to
-                                                    AR View and other will Proced to Food Info.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="media-body" id="viewfood">
-                                    <h5>4.12 View Food</h5>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Actor(User)</th>
-                                                <th scope="col">System</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1. User inside the Food list view where, is two action,
-                                                    Ar view and Food view user will press food view button.</th>
-                                                <td>2. User will be in Food info with price and other info where will
-                                                    be a add to cart button down below at the bottom.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="media-body" id="arview">
-                                    <h5>4.13 Ar View </h5>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Actor(User)</th>
-                                                <th scope="col">System</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1. User inside the Food list view where, is two action,
-                                                    Ar view and Food view user will press Ar View button.</th>
-                                                <td>2. Camera will open and user will see the food 3d model on the
-                                                    table.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="media-body" id="foodavailable">
-                                    <h5>4.14 Food Availablity</h5>
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Actor(User)</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1. User inside the Food info View will see the status
-                                                    of food available or not.</th>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="media-body" id="addcart">
-                                        <h5>4.15 Add Food to Cart </h5>
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">Actor(User)</th>
-                                                    <th scope="col">System</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1. User press the add food to cart button.</th>
-                                                    <td>2. Food will be added to the cart list on the background. user still can browse other food by pressing back button.</td>
-                                                </tr>
-                                                <tr>
-                                                        <th scope="row">3. User press the add food to cart button.</th>
-                                                        <td>4. Food will be added to the cart list on the background. user still can browse other food by pressing back button and add other food to cart also. Cart menu is global on the android menu</td>
-                                                </tr>
-                                                <tr>
-                                                        <th scope="row">5. If user press the cart button</th>
-                                                        <td>6. User will moved to a cart view activity where user wll see all the food he added along with price, grand total and a place order button. User can change quantity here on a text field near food name. Below everything there will be a place order button.</td>
-                                                </tr>
-                                               
-                                            </tbody>
-                                        </table>
+                                <p>
+                                    <b>4.8.1</b> When actor click on add option, system returns an form, actor fill it up with item name, category, price, pictures
+                                    and click on submit, system returns message 'Food item added successfully!', if click on cancel, system redirect to food DB page.
+                                    <br>
+                                    <b>4.8.2</b> When actor click on delete button, system shows alert "Are you sure to delete the Food Item?'. If Actor click on
+                                    'yes', system shows "Food Item Deleted Successfully!" and if click on 'no', system just close the alert.
+                                    <br>
+                                    <b>4.8.3</b>Actor click on 'Edit' option, system shows existing data in a editable form. Actor edit data and click on save,
+                                    system shows "Food Item Updated Successfully!". If click on Cancel button, System Retirect to Food DB page.
+                                     
+                                </p>
+                            </div>
 
-                                    </div>
-                                    <div class="media-body" id="placeorder">
-                                            <h5>4.16 Placing Order </h5>
-                                            <table class="table table-bordered">
-                                                <thead>
-                                                    <tr>
-                                                        <th scope="col">Actor(User)</th>
-                                                        <th scope="col">System</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                        
-                                                    <tr>
-                                                            <th scope="row">1. When user press the place order button.</th>
-                                                            <td>2. Orders are going to be placed and then, manager or admin can see the order if he validate them those can see the chief.</td>
-                                                    </tr>
-                                                   
-                                                </tbody>
-                                            </table>
-    
-                                        </div>
-                                        <div class="media-body" id="customerlogout">
-                                                <h5>4.17 Customer Log out </h5>
-                                                <table class="table table-bordered">
-                                                    <thead>
-                                                        <tr>
-                                                            <th scope="col">Actor(User)</th>
-                                                            <th scope="col">System</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                            
-                                                        <tr>
-                                                                <th scope="row">1. User can log out</th>
-                                                                <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                        </tr>
-                                                       
-                                                    </tbody>
-                                                </table>
-        
-                                            </div>
-                                            <div class="media-body" id="chiefregister">
-                                                    <h5>4.18 Chief Register </h5>
-                                                    
-            
-                                                </div>
-                                                <div class="media-body" id="chieflogin">
-                                                        <h5>4.19 Customer Log in </h5>
-                                                        <table class="table table-bordered">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th scope="col">Actor(User)</th>
-                                                                    <th scope="col">System</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                    
-                                                                <tr>
-                                                                        <th scope="row">1. User can log out</th>
-                                                                        <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                                </tr>
-                                                               
-                                                            </tbody>
-                                                        </table>
-                
-                                                    </div>
-                                                    <div class="media-body" id="acceptedorder">
-                                                            <h5>4.20 Accepted Orders </h5>
-                                                            <table class="table table-bordered">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th scope="col">Actor(User)</th>
-                                                                        <th scope="col">System</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                        
-                                                                    <tr>
-                                                                            <th scope="row">1. User can log out</th>
-                                                                            <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                                    </tr>
-                                                                   
-                                                                </tbody>
-                                                            </table>
-                    
-                                                        </div>
-                                                        <div class="media-body" id="updatefoodstat">
-                                                                <h5>4.21 Update Food Status </h5>
-                                                                <table class="table table-bordered">
-                                                                    <thead>
-                                                                        <tr>
-                                                                            <th scope="col">Actor(User)</th>
-                                                                            <th scope="col">System</th>
-                                                                        </tr>
-                                                                    </thead>
-                                                                    <tbody>
-                                            
-                                                                        <tr>
-                                                                                <th scope="row">1. User can log out</th>
-                                                                                <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                                        </tr>
-                                                                       
-                                                                    </tbody>
-                                                                </table>
-                        
-                                                            </div>
-                                                            <div class="media-body" id="callwaiter">
-                                                                    <h5>4.22 Call Waiter </h5>
-                                                                    <table class="table table-bordered">
-                                                                        <thead>
-                                                                            <tr>
-                                                                                <th scope="col">Actor(User)</th>
-                                                                                <th scope="col">System</th>
-                                                                            </tr>
-                                                                        </thead>
-                                                                        <tbody>
-                                                
-                                                                            <tr>
-                                                                                    <th scope="row">1. User can log out</th>
-                                                                                    <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                                            </tr>
-                                                                           
-                                                                        </tbody>
-                                                                    </table>
-                            
-                                                                </div>
-                                                                <div class="media-body" id="chieflogout">
-                                                                        <h5>4.22 Chief Log Out </h5>
-                                                                        <table class="table table-bordered">
-                                                                            <thead>
-                                                                                <tr>
-                                                                                    <th scope="col">Actor(User)</th>
-                                                                                    <th scope="col">System</th>
-                                                                                </tr>
-                                                                            </thead>
-                                                                            <tbody>
-                                                    
-                                                                                <tr>
-                                                                                        <th scope="row">1. User can log out</th>
-                                                                                        <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
-                                                                                </tr>
-                                                                               
-                                                                            </tbody>
-                                                                        </table>
-                                
-                                                                    </div>
-                                    
+
+                            <div class="media-body" id="viewcatagory">
+                                <h5>4.11 View Category</h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1. After login.</th>
+                                            <td>2. User will be in Food category activity.</td>
+
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3. User will press the category button.</th>
+                                            <td colspan="2">4. Then User will see the list of food inside the
+                                                category.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5. User will saw a list of food based on category.</th>
+                                            <td colspan="2">6. This is a Two way action button one will proced to
+                                                AR View and other will Proced to Food Info.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="media-body" id="viewfood">
+                                <h5>4.12 View Food</h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1. User inside the Food list view where, is two action,
+                                                Ar view and Food view user will press food view button.</th>
+                                            <td>2. User will be in Food info with price and other info where will
+                                                be a add to cart button down below at the bottom.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="media-body" id="arview">
+                                <h5>4.13 Ar View </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1. User inside the Food list view where, is two action,
+                                                Ar view and Food view user will press Ar View button.</th>
+                                            <td>2. Camera will open and user will see the food 3d model on the
+                                                table.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="media-body" id="foodavailable">
+                                <h5>4.14 Food Availablity</h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1. User inside the Food info View will see the status
+                                                of food available or not.</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="media-body" id="addcart">
+                                <h5>4.15 Add Food to Cart </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1. User press the add food to cart button.</th>
+                                            <td>2. Food will be added to the cart list on the background. user still
+                                                can browse other food by pressing back button.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3. User press the add food to cart button.</th>
+                                            <td>4. Food will be added to the cart list on the background. user still
+                                                can browse other food by pressing back button and add other food to
+                                                cart also. Cart menu is global on the android menu</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5. If user press the cart button</th>
+                                            <td>6. User will moved to a cart view activity where user wll see all the
+                                                food he added along with price, grand total and a place order button.
+                                                User can change quantity here on a text field near food name. Below
+                                                everything there will be a place order button.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="placeorder">
+                                <h5>4.16 Placing Order </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. When user press the place order button.</th>
+                                            <td>2. Orders are going to be placed and then, manager or admin can see the
+                                                order if he validate them those can see the chief.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="customerlogout">
+                                <h5>4.17 Customer Log out </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="chiefregister">
+                                <h5>4.18 Chief Register </h5>
+
+
+                            </div>
+                            <div class="media-body" id="chieflogin">
+                                <h5>4.19 Customer Log in </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="acceptedorder">
+                                <h5>4.20 Accepted Orders </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="updatefoodstat">
+                                <h5>4.21 Update Food Status </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="callwaiter">
+                                <h5>4.22 Call Waiter </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="media-body" id="chieflogout">
+                                <h5>4.22 Chief Log Out </h5>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Actor(User)</th>
+                                            <th scope="col">System</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <th scope="row">1. User can log out</th>
+                                            <td>2. User can log out simply by pressing logout button inside the android
+                                                hamburger menu.</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+
 
                     </article>
 
