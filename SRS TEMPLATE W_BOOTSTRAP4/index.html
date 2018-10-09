@@ -188,20 +188,20 @@
                                         <li class="list-group-item"><a href="#arview">
                                                 <p class="text-secondary"><small>4.13 Ar View</small></p>
                                             </a></li>
-                                        <li class="list-group-item"><a href="#">
-                                                <p class="text-secondary"><small>4.14 Placing Order</small></p>
+                                        <li class="list-group-item"><a href="#foodavailable">
+                                                <p class="text-secondary"><small>4.14 Food Availabity</small></p>
                                             </a></li>
-                                        <li class="list-group-item"><a href="#">
-                                                <p class="text-secondary"><small>4.15 Food Availabity</small></p>
+                                        <li class="list-group-item"><a href="#addcart">
+                                                <p class="text-secondary"><small>4.15 Add Food to Cart</small></p>
                                             </a></li>
-                                        <li class="list-group-item"><a href="#">
-                                                <p class="text-secondary"><small>4.16 Add Food to Cart</small></p>
+                                        <li class="list-group-item"><a href="#placeorder">
+                                                <p class="text-secondary"><small>4.16 Placing Order</small></p>
                                             </a></li>
 
-                                        <li class="list-group-item"><a href="#">
+                                        <li class="list-group-item"><a href="#customerlogout">
                                                 <p class="text-secondary"><small>4.17 Customer Logout</small></p>
                                             </a></li>
-                                        <li class="list-group-item"><a href="#">
+                                        <li class="list-group-item"><a href="#chiefregister">
                                                 <p class="text-secondary"><small>4.18 Chief Register</small></p>
                                             </a></li>
                                         <li class="list-group-item"><a href="#">
@@ -210,7 +210,7 @@
                                         <li class="list-group-item"><a href="#">
                                                 <p class="text-secondary"><small>4.20 Accepted Orders</small></p>
                                             </a></li>
-                                        <li>
+                                        <li class="list-group-item"><a href="#">
                                             <p class="text-secondary"><small>4.21 Accepted Orders</small></p>
                                             </a>
                                         </li>
@@ -504,21 +504,77 @@
                                             <tr>
                                                 <th scope="row">1. After login.</th>
                                                 <td>2. User will be in Food category activity.</td>
-                                            
+
                                             </tr>
                                             <tr>
                                                 <th scope="row">3. User will press the category button.</th>
-                                                <td colspan="2">4. Then User will see the list of food inside the category.</td>
+                                                <td colspan="2">4. Then User will see the list of food inside the
+                                                    category.</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">5. User will saw a list of food based on category.</th>
-                                                 <td colspan="2">6. This is a Two way action button one will proced to AR View and other will Proced to Food Info.</td>
+                                                <td colspan="2">6. This is a Two way action button one will proced to
+                                                    AR View and other will Proced to Food Info.</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="media-body" id="viewfood">
-                                        <h5>4.12 View Food</h5>
+                                    <h5>4.12 View Food</h5>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Actor(User)</th>
+                                                <th scope="col">System</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1. User inside the Food list view where, is two action,
+                                                    Ar view and Food view user will press food view button.</th>
+                                                <td>2. User will be in Food info with price and other info where will
+                                                    be a add to cart button down below at the bottom.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="media-body" id="arview">
+                                    <h5>4.13 Ar View </h5>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Actor(User)</th>
+                                                <th scope="col">System</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1. User inside the Food list view where, is two action,
+                                                    Ar view and Food view user will press Ar View button.</th>
+                                                <td>2. Camera will open and user will see the food 3d model on the
+                                                    table.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="media-body" id="foodavailable">
+                                    <h5>4.14 Food Availablity</h5>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Actor(User)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1. User inside the Food info View will see the status
+                                                    of food available or not.</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="media-body" id="addcart">
+                                        <h5>4.15 Add Food to Cart </h5>
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr>
@@ -528,14 +584,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th scope="row">1. User inside the Food list view where, is two action, Ar view and Food view user will press food view button.</th>
-                                                    <td>2. User will be in Food info with price and other info where will be a add to cart button down below at the bottom.</td>                     
+                                                    <th scope="row">1. User press the add food to cart button.</th>
+                                                    <td>2. Food will be added to the cart list on the background. user still can browse other food by pressing back button.</td>
                                                 </tr>
+                                                <tr>
+                                                        <th scope="row">3. User press the add food to cart button.</th>
+                                                        <td>4. Food will be added to the cart list on the background. user still can browse other food by pressing back button and add other food to cart also. Cart menu is global on the android menu</td>
+                                                </tr>
+                                                <tr>
+                                                        <th scope="row">5. If user press the cart button</th>
+                                                        <td>6. User will moved to a cart view activity where user wll see all the food he added along with price, grand total and a place order button. User can change quantity here on a text field near food name. Below everything there will be a place order button.</td>
+                                                </tr>
+                                               
                                             </tbody>
                                         </table>
+
                                     </div>
-                                    <div class="media-body" id="arview">
-                                            <h5>4.13 Ar View </h5>
+                                    <div class="media-body" id="placeorder">
+                                            <h5>4.16 Placing Order </h5>
                                             <table class="table table-bordered">
                                                 <thead>
                                                     <tr>
@@ -544,14 +610,61 @@
                                                     </tr>
                                                 </thead>
                                                 <tbody>
+                        
                                                     <tr>
-                                                        <th scope="row">1. User inside the Food list view where, is two action, Ar view and Food view user will press Ar View button.</th>
-                                                        <td>2. Camera will open and user will see the food 3d model on the table.</td>                     
+                                                            <th scope="row">1. When user press the place order button.</th>
+                                                            <td>2. Orders are going to be placed and then, manager or admin can see the order if he validate them those can see the chief.</td>
                                                     </tr>
+                                                   
                                                 </tbody>
                                             </table>
+    
                                         </div>
-
+                                        <div class="media-body" id="customerlogout">
+                                                <h5>4.17 Customer Log out </h5>
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Actor(User)</th>
+                                                            <th scope="col">System</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                            
+                                                        <tr>
+                                                                <th scope="row">1. User can log out</th>
+                                                                <td>2. User can log out simply by pressing logout button inside the android hamburger menu.</td>
+                                                        </tr>
+                                                       
+                                                    </tbody>
+                                                </table>
+        
+                                            </div>
+                                            <div class="media-body" id="chiefregister">
+                                                    <h5>4.18 Chief Register </h5>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th scope="col">Actor(User)</th>
+                                                                <th scope="col">System</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                
+                                                            <tr>
+                                                                    <th scope="row">1. cheif can go to website/register</th>
+                                                                    <td>2. there he will se 3 field where he needs to feelup email,user and lastly password. and there will be a submit button</td>
+                                                            </tr>
+                                                            <tr>
+                                                                    <th scope="row">1. after filling up all the info's he can submit button.</th>
+                                                                    <td>2. If all the given info is valid(checked by internal algorithm) then he will be registered to the restaurant website/app </td>
+                                                            </tr>
+                                                           
+                                                        </tbody>
+                                                    </table>
+            
+                                                </div>
+                                    
 
                     </article>
 
